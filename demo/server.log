@@ -1,0 +1,8 @@
+free-mint-safety-screener v1.0.0 listening on 0.0.0.0:8080
+GET /health 7ms
+POST /screen 3048ms
+POST /screen 1ms
+POST /screen 112ms
+POST /screen 3860ms
+POST /screen 2005ms
+POST /screen 2263ms
