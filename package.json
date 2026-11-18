@@ -1,0 +1,1 @@
+{"description":"Free-Mint Safety Screener — public BSC contract safety verdicts (Sourcify + BSC public RPC). Node.js stdlib only. Wildcard track, Agent Games zkVerify Season 01.","engines":{"node":">=22"},"license":"UNLICENSED","main":"server.js","name":"free-mint-safety-screener","private":true,"scripts":{"start":"node server.js"},"version":"1.0.0"}

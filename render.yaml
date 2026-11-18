@@ -1,0 +1,15 @@
+# Free-Mint Safety Screener — Render Blueprint (opsi deploy #2)
+# Cara pakai: hubungkan repo ini di dashboard Render -> New -> Blueprint,
+# atau New -> Web Service dan pilih repo. Free tier: tidur setelah 15 menit
+# idle -> WAJIB dipasangi keep-alive ping /health tiap 5 menit (cron terpisah).
+services:
+  - type: web
+    name: free-mint-safety-screener
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
